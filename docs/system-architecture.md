@@ -76,7 +76,7 @@ flowchart TB
 
 ## Deployment topology
 
-Render builds the service by installing `requirements.txt` and starts Uvicorn with `uvicorn main:app --host 0.0.0.0 --port $PORT`. The API and static UI run in the same service. `runtime.txt` specifies Python 3.11.9.
+Render builds the service by installing `requirements.txt` and starts Uvicorn with `uvicorn main:app --host 0.0.0.0 --port $PORT`. The API and static UI run in the same service. `runtime.txt` and `render.yaml` pin Python 3.12.11 to satisfy the `xgboost==3.4.1` dependency.
 
 ## Artifact and threshold caveat
 

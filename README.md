@@ -64,7 +64,7 @@ The notebook reports **92% accuracy, 81% precision, 81% recall, and 81% F1** for
 
 ## Run locally
 
-Use Python 3.11 (the deployment runtime is recorded in `runtime.txt`). From the repository root:
+Use Python 3.12.11 (the deployment runtime is recorded in `runtime.txt` and `render.yaml`). From the repository root:
 
 ```powershell
 py -3.11 -m venv .venv
